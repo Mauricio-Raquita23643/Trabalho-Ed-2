@@ -72,7 +72,4 @@ gcc -pg -o programa main.c hash.c insercao_comparativa.c
 gprof programa gmon.out > relatorio.txt
 ```
 
-## Autores
-
-- [Mauricio Raquita]
-
+## Autores : Mauricio Raquita
