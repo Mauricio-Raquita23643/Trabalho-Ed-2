@@ -24,6 +24,10 @@ Este projeto realiza uma análise comparativa de desempenho entre diferentes mé
 Para compilar o projeto, utilize o comando abaixo no terminal:
 
 ```sh
+wsl -d Ubuntu ou sudo apt update
+```
+
+```sh
 make
 ```
 
