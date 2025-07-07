@@ -12,9 +12,7 @@ Este projeto realiza uma análise comparativa de desempenho entre diferentes mé
 - `hash.c` / `hash.h`: Implementação das funções de tabela hash, incluindo inserção, busca, remoção, redimensionamento e funções de hash.
 - `tcep.h`: Definição da estrutura de dados para armazenar informações de CEP.
 - `insercao_comparativa.c`: Código para testes comparativos de inserção e busca.
-- `Makefile`: Script para compilação do projeto.
 - `dados/Lista_de_CEPs.txt`: Lista de faixas de CEPs por município.
-- `dados/ceps.csv`: Base de dados de CEPs para testes.
 - `relatorio.txt`: Relatório de perfilamento de desempenho (gprof).
 - `programa` / `programa.exe`: Executável gerado.
 - `.vscode/`: Configurações do Visual Studio Code.
