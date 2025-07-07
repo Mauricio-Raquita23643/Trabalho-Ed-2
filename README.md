@@ -27,11 +27,7 @@ Para compilar o projeto, utilize o comando abaixo no terminal:
 wsl -d Ubuntu ou sudo apt update
 ```
 
-```sh
-make
-```
-
-O executável será gerado com o nome `programa` (Linux) ou `programa.exe` (Windows).
+O executável será gerado com o nome `programa` (Linux) ou `programa.exe` (Windows), porém não estava dando certo gerar o relatório.txt.
 
 ## Como Executar
 
@@ -70,7 +66,6 @@ Esses dados indicam que a maior parte do tempo é gasta na inserção de element
 Para gerar o relatório de perfilamento, compile com as flags de profiling e execute:
 
 ```sh
-make clean
 gcc -pg -o programa main.c hash.c insercao_comparativa.c
 ./programa
 gprof programa gmon.out > relatorio.txt
